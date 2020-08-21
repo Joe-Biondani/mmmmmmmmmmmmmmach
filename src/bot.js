@@ -18,5 +18,5 @@ const fetch = require("node-fetch");
   client.queue = new Map();
   await registerCommands(client, "../commands");
   await registerEvents(client, "../events");
-  await client.login(process.env.BOT_TOKEN);
+  // await client.login(process.env.BOT_TOKEN);
 })();
