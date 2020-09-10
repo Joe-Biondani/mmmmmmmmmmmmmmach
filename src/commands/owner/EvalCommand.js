@@ -1,4 +1,4 @@
-/* const BaseCommand = require('../../utils/structures/BaseCommand');
+const BaseCommand = require('../../utils/structures/BaseCommand');
 const Discord = require('discord.js')
 const { inspect } = require("util")
 
@@ -52,4 +52,4 @@ module.exports = class EvalCommand extends BaseCommand {
     }
     
   }
-}  */
+}
